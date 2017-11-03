@@ -1,2 +1,3 @@
-# JENKINS-46054.url
-Submodule with .url in repo URL fails to clone
+# [JENKINS-46054](https://issues.jenkins-ci.org/browse/JENKINS-46054) - submodule with '.url' in repo URL won't clone or update
+
+The regular expression which matched the output of the `git config` command was too aggressive.
